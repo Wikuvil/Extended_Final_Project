@@ -15,6 +15,4 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @ConfigurationParameter(key = "cucumber.filter.tags", value = "not @ignore")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "steps, hooks")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty, io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm")
-public class RunCucumberTest {
-
-    }
+public class RunCucumberTest {}
